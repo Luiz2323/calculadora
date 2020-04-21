@@ -60,14 +60,11 @@ public class Calculadora extends AppCompatActivity implements View.OnClickListen
         borrar.setOnClickListener(this);
         igual = findViewById(R.id.igual);
         igual.setOnClickListener(this);
-
         cadena ="";
         cadena1 ="";
 
-
-
-
     }
+
 
     @Override
     public void onClick(View v) {
@@ -163,7 +160,7 @@ public class Calculadora extends AppCompatActivity implements View.OnClickListen
                 }
 
                 if (operadoreslogicos =="divi") {
-                    int resultado = Integer.parseInt(cadena1) / Integer.parseInt(cadena);
+                    float resultado = Integer.parseInt(cadena1) / Integer.parseInt(cadena);
                     display.setText(String.valueOf(resultado));
                 }
                  default:

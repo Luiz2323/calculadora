@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+
     tools:context=".Calculadora">
 
     <LinearLayout
@@ -194,13 +195,20 @@
 
 
                 <Button
+                    android:id="@+id/borrar"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:layout_marginHorizontal="20px"
+                    android:background="@drawable/botoness_estilos"
+                    android:text="Clear" />
+
+                <Button
                     android:id="@+id/b0"
                     android:layout_width="200px"
                     android:layout_height="200px"
                     android:layout_marginHorizontal="20px"
                     android:background="@drawable/botoness_estilos"
                     android:text="0" />
-
                 <Button
                     android:id="@+id/igual"
                     android:layout_width="200px"
@@ -215,13 +223,6 @@
                     android:layout_marginHorizontal="20px"
                     android:background="@drawable/botoness_estilos"
                     android:text="-" />
-                <Button
-                    android:id="@+id/borrar"
-                    android:layout_width="200px"
-                    android:layout_height="200px"
-                    android:layout_marginHorizontal="20px"
-                    android:background="@drawable/botoness_estilos"
-                    android:text="Clear" />
 
 
 
@@ -235,7 +236,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="-180dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="510dp"
         android:layout_marginBottom="1dp"
         android:orientation="vertical">
 

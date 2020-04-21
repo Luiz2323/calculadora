@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".Calculadora">
+
+    <LinearLayout
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:layout_marginTop="200px"
+
+        android:layout_marginBottom="-200px"
+        android:background="@drawable/display">
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="30px"
+            android:fontFamily="@font/roboto"
+            android:padding="20px"
+            android:text="Ingresa el calculo"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/suma"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/multi"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="x" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="3" />
+
+
+            <Button
+                android:id="@+id/divi"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="/" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/borrar"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/b0"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/igual"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/resta"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginHorizontal="20px"
+                android:background="@drawable/botoness_estilos"
+                android:text="-" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
